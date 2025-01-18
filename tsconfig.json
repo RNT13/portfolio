@@ -5,6 +5,10 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "types": ["@types/styled-components"]
+    "types": ["@types/styled-components"],
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*"]
+    }
   }
 }
